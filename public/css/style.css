@@ -177,4 +177,10 @@ body{
     padding: 0.5rem 3rem;
   }
 
-  
+  /* //Background_Image */
+  .bg_img{
+    background-image: url('/Images/santorini_hd.png');
+    background-size: cover;
+    background-position: center;
+
+  }
