@@ -1,15 +1,15 @@
 <% layout("layouts/boilerplate") -%>
-<!-- <img src="/Images/santorini_hd.png" class="img-fluid" alt="backgroundImg"> -->
- <div class="bg_img img-fluid" >
-<div class="row mt-3">
-    <h1 class="col-6 offset-3 text-center" style="color: white;">Login</h1>
+<img src="" alt="">
+<div class="row mt-3 style="background-image: url('/Images/santorini_hd.png'); background-size:cover; background-position:center; position: relative; height: 80vh; display: flex; flex-direction: column;justify-content: flex-start; align-items: center;width: 100vw;>
+    <h1 class="col-6 offset-3 text-center" style="color: white;">WELCOME BACK</h1>
+    <P class="col-6 offset-3 text-center" style="color: rgb(121, 117, 117);">Welcome back! please enter your details.</P>
   <div class="col-6 offset-2">
-    <form action="/login" method="post" class="needs-validation" novalidate>
+    <form action="/login" method="post" class="needs-validation" novalidate style="width: 24vw; position: absolute; display: inline-block;">
 
         <div class="mb-3">
-        <label for="username" class="form-label"></label>
+        <label for="username" class="form-label">Email</label>
         <input
-          placeholder="Username"
+          placeholder="Enter your email"
           type="text"
           name="username"
           id="username"
@@ -19,9 +19,9 @@
       </div>
 
         <div class="mb-3">
-        <label for="password" class="form-label"></label>
+        <label for="password" class="form-label">Password</label>
         <input
-          placeholder="Password"
+          placeholder="**********"
           type="password"
           name="password"
           id="password"
@@ -31,9 +31,9 @@
       </div>
 
       <div style="text-align: center;">
-      <button class="btn btn-success" style="width: 40%">Login</button>
+      <button class="btn btn-success" style="width: 100%; color: #ff3a3adb; border: none;">Sign in</button>
       </div>
     </form>
   </div>
 </div>
-</div>
+
